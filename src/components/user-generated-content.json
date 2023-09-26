@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "Savory Spaghetti",
+      "description": "Check out this delicious spaghetti recipe made with a secret family sauce!",
+      "imageUrl": "/assets/spaghettibolognese.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Travel Adventure",
+      "description": "Explore the breathtaking landscapes and culture of our recent travel adventure.",
+      "imageUrl": "/assets/travel.jpg"
+    },
+    {
+      "id": 3,
+      "title": "DIY Home Decor",
+      "description": "Learn how to create stunning home decor pieces using simple DIY techniques.",
+      "imageUrl": "/assets/homedecor.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Fitness Challenge",
+      "description": "Join our fitness challenge and achieve your health and wellness goals!",
+      "imageUrl": "/assets/fitness.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Tech Gadgets Review",
+      "description": "Get an in-depth review of the latest and coolest tech gadgets on the market.",
+      "imageUrl": "/assets/gadgets.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Creative Art Showcase",
+      "description": "Discover a world of creativity through our diverse art showcase featuring talented artists.",
+      "imageUrl": "/assets/art.jpg"
+    }
+  ]
+  

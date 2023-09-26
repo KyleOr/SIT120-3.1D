@@ -1,14 +1,24 @@
-// store/index.js
 import { createStore } from 'vuex';
 
 export default createStore({
   state: {
-    userName: '', // Initialize an empty string for the user's name
+    recipes: [], 
   },
   mutations: {
-    setUserName(state, name) {
-      state.userName = name; // Update the user's name in the state
+    setRecipes(state, recipes) {
+      state.recipes = recipes; 
     },
   },
-  // ...other Vuex store configurations
+  actions: {
+    async fetchRecipes({ commit }) {
+      try {
+        const response = await fetch('@/Recipes/recipe-detail-data.json');
+        const data = await response.json();
+        
+        commit('setRecipes', data);
+      } catch (error) {
+        console.error('Error fetching recipes:', error);
+      }
+    },
+  },
 });

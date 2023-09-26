@@ -1,11 +1,16 @@
-import { createRouter, createWebHashHistory } from 'vue-router'; // Import the functions from vue-router
+import { createRouter, createWebHashHistory } from 'vue-router'; 
 
-import InputPage from '@/views/InputPage.vue';
-import HomePage from '@/views/HomePage.vue';
+import InputPage from '@/components/InputPage.vue';
+import HomePage from '@/components/HomePage.vue';
+import YourRecipesPage from '@/components/YourRecipesPage.vue';
+import RecipeDetail from '@/components/RecipeDetail.vue';
+import ExplorePage from '@/components/ExplorePage.vue';
+import ProfilePage from '@/components/ProfilePage.vue';
+import DataPage from '@/components/DataPage.vue';
+import '@/components/HomePageStyles.css';
 
-// Create the router instance
 const router = createRouter({
-  history: createWebHashHistory(), // You can use createWebHistory() for non-hash mode
+  history: createWebHashHistory(), 
   routes: [
     {
       path: '/',
@@ -16,9 +21,30 @@ const router = createRouter({
       path: '/input',
       component: InputPage,
     },
+    {
+      path: '/YourRecipesPage',
+      component: YourRecipesPage,
+    },
+    {
+      path: '/ExplorePage',
+      component: ExplorePage,
+    },
+    {
+      path: '/ProfilePage',
+      component: ProfilePage,
+    },
+    {
+      path: '/DataPage',
+      component: DataPage,
+    },
+    {
+      path: '/recipes/:id',
+      name: 'recipe-detail',
+      component: RecipeDetail,
+      props: true, 
+    }
   ],
 });
 
-// No need to use Vue.use(VueRouter) with Vue 3
 
-export default router; // Export the router instance
+export default router; 

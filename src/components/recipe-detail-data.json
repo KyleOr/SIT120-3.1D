@@ -1,0 +1,180 @@
+[
+    {
+      "id": 1,
+      "imageUrl": "/assets/chocolatecake.jpg",
+      "title": "Delicious Chocolate Cake",
+      "description": "Indulge in the rich and decadent flavors of this homemade chocolate cake.",
+      "user": {
+        "name": "John Doe",
+        "username": "johndoe"
+      },
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "1 3/4 cups granulated sugar",
+        "3/4 cup unsweetened cocoa powder",
+        "1 1/2 teaspoons baking powder",
+        "1 1/2 teaspoons baking soda"
+        ]
+    },
+    {
+      "id": 2,
+      "imageUrl": "/assets/spaghettibolognese.jpg",
+      "title": "Classic Spaghetti Bolognese",
+      "description": "Savor the timeless flavors of this traditional Italian pasta dish.",
+      "user": {
+        "name": "Jane Smith",
+        "username": "janesmith"
+      },
+      "ingredients": [
+        "1 lb ground beef",
+        "1 onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 can (28 oz) crushed tomatoes",
+        "2 tablespoons tomato paste"
+        ]
+    },
+    {
+      "id": 3,
+      "imageUrl": "/assets/fruitsalad.jpg",
+      "title": "Fresh Fruit Salad",
+      "description": "Enjoy a healthy and refreshing fruit salad with a citrus twist.",
+      "user": {
+        "name": "Alice Johnson",
+        "username": "alicejohnson"
+      },
+      "ingredients": [
+        "1 cup strawberries, sliced",
+        "1 cup blueberries",
+        "1 cup grapes, halved",
+        "2 oranges, peeled and segmented",
+        "1/4 cup fresh orange juice"
+        ]
+    },
+    {
+    "id": 4,
+    "imageUrl": "/assets/pizzamarg.jpg",
+    "title": "Homemade Pizza Margherita",
+    "description": "Create a classic Italian pizza with fresh ingredients and a crispy crust.",
+    "user": {
+        "name": "Michael Anderson",
+        "username": "michaelanderson"
+    },
+    "ingredients": [
+        "1 pizza dough ball",
+        "1/2 cup tomato sauce",
+        "1 1/2 cups mozzarella cheese, shredded",
+        "Fresh basil leaves",
+        "1 tomato, sliced",
+        "2 tablespoons olive oil"
+        ]
+    },
+    {
+    "id": 5,
+    "imageUrl": "/assets/chickenalfredo.jpg",
+    "title": "Creamy Chicken Alfredo",
+    "description": "Indulge in a creamy and satisfying chicken Alfredo pasta dish.",
+    "user": {
+        "name": "Emily Davis",
+        "username": "emilydavis"
+    },
+    "ingredients": [
+        "2 boneless, skinless chicken breasts",
+        "8 oz fettuccine pasta",
+        "1 cup heavy cream",
+        "1/2 cup grated Parmesan cheese",
+        "2 cloves garlic, minced",
+        "2 tablespoons butter"
+        ]
+    },
+    {
+    "id": 6,
+    "imageUrl": "/assets/gardensalad.jpg",
+    "title": "Fresh Garden Salad",
+    "description": "Enjoy a healthy and crisp garden salad with a zesty dressing.",
+    "user": {
+        "name": "Robert Turner",
+        "username": "robertturner"
+    },
+    "ingredients": [
+        "4 cups mixed salad greens",
+        "1 cucumber, sliced",
+        "1 bell pepper, diced",
+        "1/2 red onion, thinly sliced",
+        "1/2 cup cherry tomatoes, halved",
+        "2 tablespoons balsamic vinaigrette dressing"
+        ]
+    },
+    {
+    "id": 7,
+    "imageUrl": "/assets/chocolatechip.jpg",
+    "title": "Chocolate Chip Cookies",
+    "description": "Bake a batch of soft and chewy chocolate chip cookies for a sweet treat.",
+    "user": {
+        "name": "Laura Wilson",
+        "username": "laurawilson"
+    },
+    "ingredients": [
+        "1 cup butter, softened",
+        "1 cup granulated sugar",
+        "1/2 cup brown sugar",
+        "2 large eggs",
+        "2 teaspoons vanilla extract",
+        "2 1/4 cups all-purpose flour"
+        ]
+    },
+    {
+    "id": 8,
+    "imageUrl": "/assets/grilledsalmon.jpg",
+    "title": "Grilled Salmon with Lemon Butter Sauce",
+    "description": "Savor the flavors of perfectly grilled salmon topped with a tangy lemon butter sauce.",
+    "user": {
+        "name": "Sophia Roberts",
+        "username": "sophiaroberts"
+    },
+    "ingredients": [
+        "4 salmon fillets",
+        "2 tablespoons olive oil",
+        "2 cloves garlic, minced",
+        "1/4 cup fresh lemon juice",
+        "2 tablespoons unsalted butter",
+        "Salt and black pepper to taste"
+        ]
+    },
+    {
+    "id": 9,
+    "imageUrl": "/assets/vegstir.jpg",
+    "title": "Vegetable Stir-Fry",
+    "description": "Create a quick and healthy vegetable stir-fry with a savory soy sauce glaze.",
+    "user": {
+        "name": "David Chen",
+        "username": "davidchen"
+    },
+    "ingredients": [
+        "2 cups mixed vegetables (broccoli, bell peppers, snap peas)",
+        "1 tablespoon vegetable oil",
+        "3 cloves garlic, minced",
+        "2 tablespoons soy sauce",
+        "1 tablespoon honey",
+        "Cooked rice for serving"
+        ]
+    },
+    {
+    "id": 10,
+    "imageUrl": "/assets/tiramisu.jpg",
+    "title": "Tiramisu",
+    "description": "Indulge in a classic Italian dessert featuring layers of coffee-soaked ladyfingers and mascarpone cream.",
+    "user": {
+        "name": "Antonio Russo",
+        "username": "antoniorusso"
+    },
+    "ingredients": [
+        "6 egg yolks",
+        "3/4 cup granulated sugar",
+        "8 oz mascarpone cheese",
+        "1 1/2 cups strong brewed coffee, cooled",
+        "24 ladyfingers",
+        "Cocoa powder for dusting"
+        ]
+    }   
+
+]
